@@ -1,0 +1,20 @@
+C:\Users\AliWil\source\repos\SolucaoCalculadora\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\AliWil\source\repos\SolucaoCalculadora\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\AliWil\source\repos\SolucaoCalculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\AliWil\source\repos\SolucaoCalculadora\Calculadora\obj\Debug\Calculadora.csprojAssemblyReference.cache
+C:\Users\AliWil\source\repos\SolucaoCalculadora\Calculadora\obj\Debug\Calculadora.Form1.resources
+C:\Users\AliWil\source\repos\SolucaoCalculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\AliWil\source\repos\SolucaoCalculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+C:\Users\AliWil\source\repos\SolucaoCalculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\AliWil\source\repos\SolucaoCalculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\AliWil\source\repos\SolucaoCalculadora\Calculadora\obj\Debug\Calculadora.pdb
+E:\Faculdade - SISTEMA DE INFORMAÇÂO\SISTEMA-5º PERIODO\TALES\ServicoWebSOAP\SolucaoCalculadora\Calculadora\bin\Debug\Calculadora.exe.config
+E:\Faculdade - SISTEMA DE INFORMAÇÂO\SISTEMA-5º PERIODO\TALES\ServicoWebSOAP\SolucaoCalculadora\Calculadora\bin\Debug\Calculadora.exe
+E:\Faculdade - SISTEMA DE INFORMAÇÂO\SISTEMA-5º PERIODO\TALES\ServicoWebSOAP\SolucaoCalculadora\Calculadora\bin\Debug\Calculadora.pdb
+E:\Faculdade - SISTEMA DE INFORMAÇÂO\SISTEMA-5º PERIODO\TALES\ServicoWebSOAP\SolucaoCalculadora\Calculadora\obj\Debug\Calculadora.csprojResolveAssemblyReference.cache
+E:\Faculdade - SISTEMA DE INFORMAÇÂO\SISTEMA-5º PERIODO\TALES\ServicoWebSOAP\SolucaoCalculadora\Calculadora\obj\Debug\Calculadora.Form1.resources
+E:\Faculdade - SISTEMA DE INFORMAÇÂO\SISTEMA-5º PERIODO\TALES\ServicoWebSOAP\SolucaoCalculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+E:\Faculdade - SISTEMA DE INFORMAÇÂO\SISTEMA-5º PERIODO\TALES\ServicoWebSOAP\SolucaoCalculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+E:\Faculdade - SISTEMA DE INFORMAÇÂO\SISTEMA-5º PERIODO\TALES\ServicoWebSOAP\SolucaoCalculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+E:\Faculdade - SISTEMA DE INFORMAÇÂO\SISTEMA-5º PERIODO\TALES\ServicoWebSOAP\SolucaoCalculadora\Calculadora\obj\Debug\Calculadora.exe
+E:\Faculdade - SISTEMA DE INFORMAÇÂO\SISTEMA-5º PERIODO\TALES\ServicoWebSOAP\SolucaoCalculadora\Calculadora\obj\Debug\Calculadora.pdb

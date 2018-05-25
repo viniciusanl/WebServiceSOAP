@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://servicoWeb.calculadora/" targetNamespace="http://servicoWeb.calculadora/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="multiplicar" type="tns:multiplicar" />
+  <xs:element name="multiplicarResponse" type="tns:multiplicarResponse" />
+  <xs:element name="soma" type="tns:soma" />
+  <xs:element name="somaResponse" type="tns:somaResponse" />
+  <xs:complexType name="soma">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:double" />
+      <xs:element name="arg1" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="somaResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="multiplicar">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:double" />
+      <xs:element name="arg1" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="multiplicarResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

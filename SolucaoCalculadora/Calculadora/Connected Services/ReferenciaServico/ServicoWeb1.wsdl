@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://servicoWeb.calculadora/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="ServicoWeb" targetNamespace="http://servicoWeb.calculadora/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://laptop-71fcgccm:8080/ServicoCalculadora/ServicoWeb?xsd=1" namespace="http://servicoWeb.calculadora/" />
+    </xsd:schema>
+  </types>
+  <message name="multiplicar">
+    <part name="parameters" element="tns:multiplicar" />
+  </message>
+  <message name="multiplicarResponse">
+    <part name="parameters" element="tns:multiplicarResponse" />
+  </message>
+  <message name="soma">
+    <part name="parameters" element="tns:soma" />
+  </message>
+  <message name="somaResponse">
+    <part name="parameters" element="tns:somaResponse" />
+  </message>
+  <portType name="ServicoWeb">
+    <operation name="multiplicar">
+      <input wsam:Action="http://servicoWeb.calculadora/ServicoWeb/multiplicarRequest" message="tns:multiplicar" />
+      <output wsam:Action="http://servicoWeb.calculadora/ServicoWeb/multiplicarResponse" message="tns:multiplicarResponse" />
+    </operation>
+    <operation name="soma">
+      <input wsam:Action="http://servicoWeb.calculadora/ServicoWeb/somaRequest" message="tns:soma" />
+      <output wsam:Action="http://servicoWeb.calculadora/ServicoWeb/somaResponse" message="tns:somaResponse" />
+    </operation>
+  </portType>
+  <binding name="ServicoWebPortBinding" type="tns:ServicoWeb">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="multiplicar">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="soma">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="ServicoWeb">
+    <port name="ServicoWebPort" binding="tns:ServicoWebPortBinding">
+      <soap:address location="http://laptop-71fcgccm:8080/ServicoCalculadora/ServicoWeb" />
+    </port>
+  </service>
+</definitions>
